@@ -10,16 +10,16 @@
 </head>
 
 <body class="bg-[#2B2D33]">
-    <nav class=" bg-[#2B2D33] shadow-xl sticky top-0 z-20">
+    <nav class=" bg-[#2B2D33] shadow-xl sticky top-0 z-10 py-5 mt-0">
 
-        <div class="sm:flex text-center justify-between items-center container mx-auto py-5 text-white">
+        <div class="sm:flex text-center justify-between items-center container mx-auto  text-white">
 
             <div class="text-2xl sm:text-3xl font-bold"><a href="#"> <span class="text-[#F65023]">S</span>mart
                     Coad<spanclass="text-[#F65023]">ers</span></a></div>
 
             <hr class="border-2 border-gray-500 sm:border-none mt-2">
 
-            <ul class="sm:flex gap-3 text-xl">
+            <ul class="sm:flex gap-2 sm:gap-3 text-xl">
                 <li><a href="#" class="text-[#F65023]">Home</a></li>
                 <li><a href="#" class="hover:text-[#F65023]">Products</a></li>
                 <li><a href="#" class="hover:text-[#F65023]">Blog</a></li>
@@ -32,11 +32,11 @@
 
     <header>
         <div
-            class="container mx-auto sm:flex items-center justify-around text-center border-2 border-indigo-900 border-t-0  py-6">
+            class="container mx-auto lg:flex items-center justify-around text-center border-2 border-indigo-900 border-t-0  py-6">
             <div>
                 <h1 class=" text-3xl sm:text-5xl text-white mt-4 ml-4">Smart Coders: Learn <br> Programming</h1><br>
                 <button
-                    class="bg-indigo-900 px-4 py-4 sm:py-2 rounded-full text-2xl text-white inline-block shadow-xl hover:bg-indigo-950 transition mb-4">
+                    class="bg-indigo-900 px-4 py-6 lg:py-4 rounded-full text-2xl text-white inline-block shadow-xl hover:bg-indigo-950 transition mb-4">
                     You can join with Khan Vai <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         stroke-width="1.5" stroke="currentColor"
                         class="size-6 inline-block ml-2 text-red-600 animate-ping">
@@ -111,8 +111,9 @@
 
         </section>
 
-        <section class="bg-slate-700">
-            <div class="grid sm:flex sm:gap-20 md:gap-40 justify-center items-center text-white text-center py-20 my-24">
+        <section class="bg-slate-700 container mx-auto">
+            <div
+                class="grid sm:flex sm:gap-20 md:gap-40 justify-center items-center text-white text-center py-20 my-16 md:my-24 ">
                 <div class="mb-12 sm:mb-0 text-lg sm:text-xl md:text-2xl">
                     <h2 class=" text-orange-500 mb-4 animate-bounce">My Clients</h2>
                     <p>My Take care of <br> more <span
@@ -120,7 +121,7 @@
                         <br> Customers
                     </p>
                 </div>
-                <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 place-content-center">
+                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 place-content-center">
                     <div> <img src="/images/client-01.png" alt="">
                         <p>ONEPLUS</p>
                     </div>
@@ -150,6 +151,77 @@
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+        <section class="my-20 sm:my-20 py-12 sm:py-16 bg-slate-800 container mx-auto">
+            <h4 class="text-3xl text-white text-center mb-10 ">Ask a Question</h4>
+            <form class="">
+                <input
+                    class="w-1/2 py-2 block mx-auto mb-4 rounded border-2 border-orange-500 placeholder:text-orange-500 italic"
+                    type="email" placeholder="Your E-mail">
+
+                <textarea
+                    class="w-1/2 h-48 block mx-auto rounded border-2 border-orange-500 placeholder:text-orange-500 italic"
+                    placeholder="Your Question..." name="" id=""></textarea>
+
+                <button
+                    class="bg-orange-500 hover:bg-orange-400 text-white text-xl py-2 px-6 mt-4 rounded block mx-auto transition">Send
+                    Now</button>
+            </form>
+        </section>
+
+        <section class="md:py-16 py-10 text-white  bg-slate-800 container mx-auto my-10">
+            <div
+                class=" gap-y-16 sm:gap-y-10 grid sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-10 container mx-auto py-8 sm:py-10">
+                <div class="border py-20 sm:p-10 ">
+                    <p class="text-sm ml-32 sm:ml-0">Basic Plan <br>$<span
+                            class="md:text-5xl sm:text-4xl text-3xl font-bold">19.99</span>/month</p>
+                    <hr class="sm:w-0 w-5/6 my-5 mx-auto">
+                    <ul class="list-disc list-inside mb-6 ml-32 sm:ml-0 leading-8">
+                        <li>500 User Active</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Charges</li>
+                        <li>03 Time Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilitys</li>
+                    </ul>
+                    <button
+                        class="bg-green-600 hover:bg-green-700 transition py-2 px-4 rounded block mx-auto">Purchase</button>
+                </div>
+                <div class="border py-20 sm:p-10 ">
+                    <p class="text-sm ml-32 sm:ml-0">Basic Plan <br>$<span
+                            class="md:text-5xl sm:text-4xl text-3xl font-bold">19.99</span>/month</p>
+                    <hr class="sm:w-0 w-5/6 my-5 mx-auto">
+                    <ul class="list-disc list-inside mb-6 ml-32 sm:ml-0 leading-8">
+                        <li>500 User Active</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Charges</li>
+                        <li>03 Time Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilitys</li>
+                    </ul>
+                    <button
+                        class="bg-green-600 hover:bg-green-700 transition py-2 px-4 rounded block mx-auto">Purchase</button>
+                </div>
+                <div class="border py-20 sm:p-10 ">
+                    <p class="text-sm ml-32 sm:ml-0">Basic Plan <br>$<span
+                            class="md:text-5xl sm:text-4xl text-3xl font-bold">19.99</span>/month</p>
+                    <hr class="sm:w-0 w-5/6 my-5 mx-auto">
+                    <ul class="list-disc list-inside mb-6 ml-32 sm:ml-0 leading-8">
+                        <li>500 User Active</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Charges</li>
+                        <li>03 Time Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilitys</li>
+                    </ul>
+                    <button
+                        class="bg-green-600 hover:bg-green-700 transition py-2 px-4 rounded block mx-auto">Purchase</button>
+                </div>
+
+
+
             </div>
         </section>
     </main>
